@@ -13,9 +13,7 @@ int main(){
      printf("Years: %d\n", years);
      printf("Months: %d\n", months);
      printf("Weeks: %d\n", weeks);
-
-
-
+   
 
         return 0;
 }

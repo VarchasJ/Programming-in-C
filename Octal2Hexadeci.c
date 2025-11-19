@@ -7,18 +7,18 @@ int main() {
     printf("Enter an octal number: ");
     scanf("%d", &octal);
 
-    // Convert octal to decimal
+  
     int temp = octal;
     while (temp != 0) {
         rem = temp % 10;
-        decimal += rem * (1 << (3 * i)); // 8^i = 2^(3*i)
+        decimal += rem * (1 << (3 * i)); 
         temp /= 10;
         i++;
     }
     printf("Decimal: %d\n", decimal);
 
 
-    // Convert decimal to hexadecimal
+   
     int j = 0;
     temp = decimal;
     if (temp == 0) {
